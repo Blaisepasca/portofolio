@@ -1,11 +1,12 @@
 <template>
    <div class="home">
-    <p>Hello I'm</p>
-    <h1>Blaise Aganze pascal </h1>
-    <p>Front-end Developer</p>
+     <div class="intro">
+    <div class="present">Hello I'm</div>
+    <div class="boula">Blaise Aganze pascal </div>
+    <div class="present">Front-end Developer</div>
 
     <div class="btn">
-        <button>Visit My Projects</button>
+        <button><a href="#">Visit My Projects</a></button>
     </div>
     <div class="sociauxmedia">
         <div>
@@ -23,6 +24,8 @@
         
     
     </div>
+    </div> 
+    
    </div>
   
  
@@ -48,11 +51,42 @@ export default {
     background-color:#5D5E5E;
    
 }
+.intro{
+    height: 350px;
+    width: 600px;
+    margin-left: 100px;
+    background-color: red;
+}
 
 .sociauxmedia{
-    display: flex;
-    margin-top: 200px;
-   
+    display: flex;  
+}
+img{
+    margin: 15px;
+}
+.boula{
+    font-size: 50px;
+    color: white;
+}
+.present{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+button{
+    background-color: blue; 
+    margin-top: 5px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 35px;
+    border: none;   
+
+}
+button a{
+    text-decoration: none;
+    color: white;
 }
  
 
