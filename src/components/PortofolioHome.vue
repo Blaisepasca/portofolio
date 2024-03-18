@@ -49,9 +49,6 @@ export default {
    
 }
 
-.button{
-    align-items: center;
-}
 .sociauxmedia{
     display: flex;
     margin-top: 200px;
