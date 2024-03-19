@@ -27,7 +27,7 @@
   .navbar{
     width: 100%;
     height: 80px;
-    background-color: #5D5E5E;
+    background-color: #06171F;
     display: flex;
     justify-content: end;
     
@@ -51,6 +51,9 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 15px;
+  }
+  .items li a:hover {
+    color: #FC3727;
   }
   
   </style>

@@ -1,11 +1,13 @@
 <template>
   <div>
     <HomeNavbar/>
- <PortofolioHome/>
+    <PortofolioHome/>
+    <AboutPortfolio/>
   </div>
 </template>
 
 <script>
+import AboutPortfolio from './components/AboutPortfolio.vue'
 import HomeNavbar from './components/HomeNavbar.vue'
 import PortofolioHome from './components/PortofolioHome.vue'
 
@@ -14,6 +16,7 @@ export default {
   components: {
     HomeNavbar,
     PortofolioHome,
+    AboutPortfolio,
     
   }
 }
@@ -21,4 +24,4 @@ export default {
 
 <style>
 
-</style>
+</style>./components/AboutPortofolio.vue

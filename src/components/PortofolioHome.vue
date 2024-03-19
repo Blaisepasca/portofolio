@@ -5,7 +5,7 @@
     <div class="boula">Blaise Aganze pascal </div>
     <div class="present">Front-end Developer</div>
 
-    <div class="btn">
+    <div class="btnn">
         <button><a href="#">Visit My Projects</a></button>
     </div>
     <div class="sociauxmedia">
@@ -48,14 +48,17 @@ export default {
 .home{
     width: 100%;
     height: 80vh;
-    background-color:#5D5E5E;
+    padding-top: 150px;
+    background-color:#06171F;
+    
    
 }
 .intro{
     height: 350px;
     width: 600px;
     margin-left: 100px;
-    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .sociauxmedia{
@@ -71,15 +74,15 @@ img{
 .present{
     font-size: 20px;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 button{
-    background-color: blue; 
-    margin-top: 5px;
-    padding-top:5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
+    background-color: #7A1B13; 
+    margin-top: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
     border-radius: 35px;
     border: none;   
 
@@ -87,6 +90,10 @@ button{
 button a{
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: #FC3727;
 }
  
 
