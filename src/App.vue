@@ -3,6 +3,7 @@
     <HomeNavbar/>
     <PortofolioHome/>
     <AboutPortfolio/>
+    <ProjectComponents/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import AboutPortfolio from './components/AboutPortfolio.vue'
 import HomeNavbar from './components/HomeNavbar.vue'
 import PortofolioHome from './components/PortofolioHome.vue'
+import  ProjectComponents from './components/ProjectComponents.vue'
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     HomeNavbar,
     PortofolioHome,
     AboutPortfolio,
+    ProjectComponents
     
   }
 }
