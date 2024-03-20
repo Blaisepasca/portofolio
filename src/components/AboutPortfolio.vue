@@ -14,6 +14,16 @@
                      <button class="btn"><a href="#">DOWNLOAD CV</a></button>
             </div>
         </div>
+        <div class="skills" >
+            <div class="logoss">
+            <img src="../assets/html_5_30px.png" >
+            <img src="../assets/css3_30px.png" >
+            <img src="../assets/javascript_30px.png" >
+            <img src="../assets/vue_js_30px.png">
+            <img src="../assets/php_logo_30px.png">
+            <img src="../assets/mysql_logo_30px.png">
+            </div>
+        </div>
        
     </div>
  
@@ -37,12 +47,12 @@ export default {
 <style>
 .About{
     width: 100%;
-    height: 500px;
+    height: 200px;
     
 }
 .container{
     width: 80%;
-    height: 400px;
+    height: 200px;
     margin-left: 10%;
     padding-top: 80px;
     display: inline-flex;
@@ -73,6 +83,19 @@ img{
 .btn:hover{
     background-color: #FC3727;
 }
+.skills{
+    width: 100%;
+    height: 50px;
+    
+}
+.logoss{
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+
+
 
 
 </style>
