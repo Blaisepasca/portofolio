@@ -1,5 +1,5 @@
 <template>
-    <div class="project">
+    <div class="project" id="projet">
       <div class="projectimage">Image</div>
       <div class="projectdescrp">
         <div class="titles">
@@ -9,11 +9,17 @@
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad perspiciat
         </div>
         <div class="language">
+          <div class="langue">Html</div>
+          <div class="langue">Css</div>
             <div class="langue">PHP</div>
             <div class="langue">js</div>
+            <div class="langue">Vuejs</div>
 
         </div>
-
+        <div class="links">
+          <a class="demo" href="#">Demo</a>
+          <a class="s-code" href="#">Source Code</a>
+        </div>
       </div>
     </div>
   </template>
@@ -31,6 +37,21 @@
   </script>
   
   <style>
+  .demo{
+    text-decoration: none;
+    color: #00A7F0;
+    margin-right: 20px;
+  }
+  .s-code{
+    color: #26C454;
+    text-decoration: none;
+  }
+  .demo:hover, .s-code:hover{
+    font-weight: bold;
+  }
+  .links{
+    margin-top: 15px;
+  }
   .project{
     width: 80%;
     height: 400px;

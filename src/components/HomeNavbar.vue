@@ -1,10 +1,10 @@
 <template>
   <div class="navbar">
     <div class="items">
-      <li class="item"><a href="#">Home</a></li>
-      <li class="item"><a href="#">About</a></li>
-      <li class="item"><a href="#">Projects</a></li>
-      <li class="item"><a href="#">Contacts</a></li>
+      <li class="item"><a href="#home">Home</a></li>
+      <li class="item"><a href="#about">About</a></li>
+      <li class="item"><a href="#projet">Projects</a></li>
+      <li class="item"><a href="#contact">Contacts</a></li>
     </div>
   </div>
 
@@ -30,6 +30,7 @@ export default {
   background-color: #06171F;
   display: flex;
   justify-content: end;
+  position: fixed;
 
 }
 

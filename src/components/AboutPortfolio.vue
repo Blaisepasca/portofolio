@@ -1,8 +1,8 @@
 <template>
-    <div class="About">
+    <div class="About" id="about">
         <div class="container">
             <div class="img">
-                <img src="../assets/bl.jpeg" width="300" alt="">
+                <img src="../assets/bl.jpeg" width="300">
             </div>
             <div class="infos">
                 <div class="names">Blaise Aganze pascal</div>
