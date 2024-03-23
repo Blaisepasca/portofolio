@@ -6,7 +6,9 @@
             project title
         </div>
         <div class="descript">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad perspiciat
+          I'm  Blaise aganze pascal a Font-end developer , Exciting in software developper and 
+           I like problem-solving. 
+          
         </div>
         <div class="language">
           <div class="langue">Html</div>

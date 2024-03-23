@@ -6,7 +6,7 @@
     <div class="present">Front-end Developer</div>
 
     <div class="btnn">
-        <button><a href="ProjectComponents.vue">Visit My Projects</a></button>
+        <button><a href="ProjectComponents.vue">My Projects</a></button>
     </div>
     <div class="sociauxmedia">
         <div>
